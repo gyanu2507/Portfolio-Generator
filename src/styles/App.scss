@@ -1,0 +1,30 @@
+.App {
+  @import "Bootstrap/Header";
+  @import "../../node_modules/@syncfusion/ej2-base/styles/material.css";
+  @import "../../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+  @import "../../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+  @import "../../node_modules/@syncfusion/ej2-popups/styles/material.css";
+  @import "../../node_modules/@syncfusion/ej2-react-calendars/styles/material.css";
+}
+
+.split {
+  display: flex;
+  flex-direction: row;
+}
+
+.gutter {
+  background-color: #eee;
+  background-repeat: no-repeat;
+  //background-position: 10%;
+}
+
+.gutter.gutter-horizontal {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==");
+  cursor: col-resize;
+}
+
+span.nav-link {
+  cursor: pointer;
+}
+
+@import "Preview";
